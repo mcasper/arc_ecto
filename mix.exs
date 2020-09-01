@@ -41,7 +41,7 @@ defmodule Arc.Ecto.Mixfile do
 
   defp deps do
     [
-      {:arc,  "~> 0.11.0"},
+      {:arc, github: "MasashiYokota/arc", branch: "update-poison-version"},
       {:ecto, ">= 2.1.0"},
       {:mock, "~> 0.3.3", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev}
